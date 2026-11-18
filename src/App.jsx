@@ -1,5 +1,6 @@
 import React from "react";
 import Counter from "./components/Counter";
+import ThemeSwap from "./components/ThemeSwap";
 
 const App = () => {
   return (
@@ -22,8 +23,11 @@ const App = () => {
         Login with WeChat
       </button>
 
+      <div>
+        <ThemeSwap/>
+      </div>
       <Counter/>
-    </div>
+      </div>
 
 
   );
